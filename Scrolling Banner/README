@@ -12,6 +12,6 @@ A lightweight HTML/JS/CSS snippet that simulates a scrolling terminal effect—p
 ## 📦 Files
 
 - `index.html` — basic layout and container
-- `style.css` — styling for the scrolling effect
+- `styles.css` — styling for the scrolling effect
 - `script.js` — logic for line generation and animation
 
