@@ -1,0 +1,94 @@
+html{
+  background-color: #222222;
+  padding-top: 10px; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.layout-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  z-index: 995
+}
+  
+.home {
+  padding: 2rem;
+  max-width: 800px;
+  margin :40px auto;
+  max-width: 800px;
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: white;
+  margin-top: .5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  padding: 0,20 ;
+  position: relative;
+  z-index: 999;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: #23A455;
+}
+
+h1, h2 {
+  color: #23A455;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  font-size: 0.9rem;
+  margin-top: 2rem;    
+}
+
+.footer{
+margin-top:2rem;
+color: #23A455;
+text-align: center;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 300px;
+margin-left:2rem;
+ z-index: 1010;
+}
+
+.code-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 1002; /* Behind everything */
+  pointer-events: none;
+  background: transparent; /* Or transparent if you want */
+  padding: 1rem;
+  font-family: monospace;
+}
+
+.scroll-wrapper {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+#code-stream {
+  color: rgba(194, 212, 194, 0.4); /* Matrix-style glow */
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+
+
