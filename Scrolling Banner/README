@@ -1,0 +1,17 @@
+# 🧩 Scrolling Code Demo
+
+A lightweight HTML/JS/CSS snippet that simulates a scrolling terminal effect—perfect for teaching, showcasing UI polish, or adding flair to your site.
+
+## 🚀 Features
+
+- Sequential or random line display
+- Modular structure (HTML, CSS, JS)
+- Easy to customize with your own pseudo-code or product names
+- Teachable logic for beginners and educators
+
+## 📦 Files
+
+- `index.html` — basic layout and container
+- `style.css` — styling for the scrolling effect
+- `script.js` — logic for line generation and animation
+
